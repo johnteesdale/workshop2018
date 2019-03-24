@@ -282,6 +282,10 @@ td {
   max-width: 500px;
 }
 
+#hateCrimeExtreme {
+  clear: both;
+}
+
 #hateCrimeExtreme p {
   max-width: 350px;
 }
