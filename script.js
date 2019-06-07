@@ -27,4 +27,24 @@ $(document).ready(function(){
     onOff=0;
   });
 
+
+
+var update_loop = setInterval(Scroll, 1000); // one second updates
+
+function Scroll(){
+  var p = $(window).scrollTop(); // current scroll posistion
+  var h = $(window).height();   // returns height of browser viewport
+
+  console.log(p);
+  console.log(h);
+
+  if (h<p) {
+    $("#topscroll").show();
+    console.log("show");
+  } else {
+    $("#topscroll").hide();
+  };
+
+}
+
 });

@@ -236,6 +236,18 @@ td {
   color: #c51f30;
 }
 
+#topscroll {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  height: 30px;
+  display: none;
+}
+
+#topscroll img {
+  height: 100%;
+}
+
 /* End of navigation menu */
 
 /* Start of Intro/Splash Page */
